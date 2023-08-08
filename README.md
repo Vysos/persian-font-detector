@@ -12,8 +12,6 @@ The model uses a ResNet-101 architecture pre-trained on ImageNet. The convolutat
 
 This transfer learning approach allows the model to leverage features learned on large datasets like ImageNet. The model only has to learn the new classification layer.
 
-The replaced fully connected layer uses a LogSoftmax activation for multi-class prediction.
-
 The model is trained for 5 epochs with cross-entropy loss, SGD optimizer with 0.001 learning rate and 0.9 momentum. A StepLR scheduler reduces the LR by 10x every 7 epochs.
 
 Data is augmented on-the-fly with random horizontal flips. Images are resized to 224x224, normalized, and batched with 4 images per batch.
