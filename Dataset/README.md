@@ -51,7 +51,7 @@ Click [here](https://drive.google.com/file/d/12Z1bFBPRsEYFswdEMGzyTnthL4xEdZl-/v
 - Text extracted from Persian Wikipedia articles
 - Text cleaning to remove non-Persian characters
 - 16 fonts selected to represent diverse styles
-- Text rendered as images using modified TRFG library
+- Text rendered as images using modified [TRDG library](https://github.com/Belval/TextRecognitionDataGenerator)
 - 70% generated as clean images
 - 30% generated with synthetic noise: blurring, distortions, Gaussian noise with varying levels
 - Train/Validation/Test split with class balanced stratification
