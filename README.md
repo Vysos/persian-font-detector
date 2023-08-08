@@ -29,6 +29,8 @@ The `ResNet101_Torch.ipynb` notebook contains the full code to:
 
 To use the model:
 
+Download the trained model from [here](https://drive.google.com/file/d/18CO6XBws-9B12jS1h8eslGB-qMeCeB8I/view?usp=drive_link).
+
 ```python
 model = torch.load('Trained_ResNet101.pth')
 model.eval() 
